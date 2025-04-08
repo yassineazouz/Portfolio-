@@ -23,7 +23,7 @@ function App() {
             </Suspense>
           </Canvas>
         </div>
-        
+
         <div className="relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -33,7 +33,9 @@ function App() {
             <h1 className="text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
               Yassine Azzouz
             </h1>
-            <h2 className="text-2xl mb-8 text-cyan-300">Full Stack & IoT Developer</h2>
+            <h2 className="text-2xl mb-8 text-cyan-300">
+              Full Stack Developer
+            </h2>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -59,30 +61,43 @@ function App() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="space-y-6">
-                <h3 className="text-2xl font-semibold text-cyan-300">Education</h3>
+                <h3 className="text-2xl font-semibold text-cyan-300">
+                  Education
+                </h3>
                 <div className="space-y-4">
                   <div className="p-4 bg-gray-800 rounded-lg backdrop-blur-lg bg-opacity-50">
-                    <h4 className="text-xl font-semibold">Université Paris-Saclay</h4>
+                    <h4 className="text-xl font-semibold">
+                      Université Paris-Saclay
+                    </h4>
                     <p className="text-gray-400">Computer Engineering</p>
                     <p className="text-cyan-400">2023 - Present</p>
                   </div>
                   <div className="p-4 bg-gray-800 rounded-lg backdrop-blur-lg bg-opacity-50">
-                    <h4 className="text-xl font-semibold">Faculty of Sciences of Tunis</h4>
+                    <h4 className="text-xl font-semibold">
+                      Faculty of Sciences of Tunis
+                    </h4>
                     <p className="text-gray-400">Computer Science</p>
                     <p className="text-cyan-400">2019 - 2023</p>
                   </div>
                 </div>
               </div>
               <div className="space-y-6">
-                <h3 className="text-2xl font-semibold text-cyan-300">Profile</h3>
+                <h3 className="text-2xl font-semibold text-cyan-300">
+                  Profile
+                </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Passionate Full Stack Developer with expertise in IoT technologies. 
-                  Experienced in building scalable web applications and developing 
-                  innovative IoT solutions. Committed to creating efficient, user-friendly 
-                  applications that solve real-world problems.
+                  Passionate Full Stack Developer with expertise in IoT
+                  technologies. Experienced in building scalable web
+                  applications and developing innovative IoT solutions.
+                  Committed to creating efficient, user-friendly applications
+                  that solve real-world problems.
                 </p>
                 <div className="flex space-x-4">
-                  <a href="/resume.pdf" download className="flex items-center text-cyan-400 hover:text-cyan-300">
+                  <a
+                    href="https://publuu.com/flip-book/844248/1852750"
+                    download
+                    className="flex items-center text-cyan-400 hover:text-cyan-300"
+                  >
                     <Download className="w-5 h-5 mr-2" />
                     Resume
                   </a>
@@ -100,14 +115,18 @@ function App() {
             Skills
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            <SkillCard name="React" progress={90} />
-            <SkillCard name="TypeScript" progress={85} />
-            <SkillCard name="Spring Boot" progress={80} />
-            <SkillCard name="PostgreSQL" progress={85} />
-            <SkillCard name="ESP32" progress={75} />
-            <SkillCard name="Firebase" progress={80} />
-            <SkillCard name="Docker" progress={70} />
-            <SkillCard name="IoT" progress={85} />
+            <SkillCard name="Html" progress={80} />
+            <SkillCard name="Js" progress={65} />
+            <SkillCard name="Css" progress={60} />
+            <SkillCard name="React" progress={60} />
+            <SkillCard name="expressJs" progress={65} />
+            <SkillCard name="TypeScript" progress={60} />
+            <SkillCard name="Spring Boot" progress={40} />
+            <SkillCard name="PostgreSQL" progress={40} />
+            <SkillCard name="Mvc" progress={60} />
+            <SkillCard name="Orm" progress={50} />
+            <SkillCard name="Api Rest" progress={60} />
+            <SkillCard name="Docker" progress={50} />
           </div>
         </div>
       </section>
@@ -174,7 +193,9 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold text-cyan-300">Get in touch</h3>
+              <h3 className="text-2xl font-semibold text-cyan-300">
+                Get in touch
+              </h3>
               <form className="space-y-4">
                 <div>
                   <input
