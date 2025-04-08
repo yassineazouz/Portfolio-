@@ -260,7 +260,7 @@ function App() {
       {/* Footer */}
       <footer className="py-8 px-4 bg-gray-800">
         <div className="max-w-6xl mx-auto text-center text-gray-400">
-          <p>&copy; 2025 Yassine Azzouz. All rights reserved.</p>
+          <p>&copy; 2025 Yassine  Azzouz. All rights reserved.</p>
         </div>
       </footer>
     </div>
